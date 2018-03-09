@@ -12,7 +12,8 @@ function translatePigLatin(str) {
   
   if(cutStr.length == str.length){
     newStr = cutStr.concat("way");
-  } else {
+  } 
+  else {
     newStr = cutStr.concat(consonantStr + 'ay');
   }
   return newStr;
