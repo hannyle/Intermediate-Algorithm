@@ -1,5 +1,4 @@
-function whatIsInAName(collection, source) {
-  
+function whatIsInAName(collection, source) {  
   var arr = [];
   //function to get the array of Keys of an object
   function keyArr (obj){
@@ -25,7 +24,8 @@ function whatIsInAName(collection, source) {
           match = true;
         } 
         else {match = false;}        
-  }    
+  } 
+    //if all of 'source' keys exists and match their values in 'collection', var match returns 'true'
     if(match == true){
       arr.push(collection[i]);
     }
