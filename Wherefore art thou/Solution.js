@@ -17,7 +17,8 @@ function whatIsInAName(collection, source) {
     //get the Key array of argument 'collection'
      collectKeyArr = keyArr(collection[i]);    
       for(var j =0; j<sourceKeyArr.length; j++){
-        //check whether the 'source' Keys exist in 'collection' Keys, and whether the property values are matched with the same Keys, here is 'sourceKeyArr[j]'
+        //check whether the 'source' Keys exist in 'collection' Keys, and whether the property values are matched with the same Keys, 
+        //here Key is 'sourceKeyArr[j]'
         //source[sourceKeyArr[j]]: get the property value of 'source' Keys[j]
         //collection[i][sourceKeyArr[j]]: get the property value of 'collection' Keys[j]
         if(collectKeyArr.indexOf(sourceKeyArr[j]) !== -1 && source[sourceKeyArr[j]] == collection[i][sourceKeyArr[j]]){        
