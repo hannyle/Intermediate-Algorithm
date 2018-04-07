@@ -1,3 +1,4 @@
+//Simple method, use parseInt() to automatically convert from binary to decimal
 function binaryAgent(str) {
   var arr = str.split(' ');
   var newArr = [];
