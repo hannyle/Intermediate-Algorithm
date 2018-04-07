@@ -1,7 +1,7 @@
 function binaryAgent(str) {
   var arr = str.split(' ');
   var newArr = [];
-  for(var i=0;i<arr.length; i++){
+  for(var i=0; i<arr.length; i++){
     var a = parseInt(arr[i],2);
     var newStr = String.fromCharCode(a);
     newArr.push(newStr);
